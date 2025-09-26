@@ -12,16 +12,3 @@ Deliverables:-SQL script containing queries with:
 -Filtering with WHERE, AND, OR, BETWEEN
 -Sorting with ORDER BY
 
-
-SELECT Name, Price
-FROM Product
-ORDER BY Price DESC
-LIMIT 3;
-
-SELECT Name, Price 
-FROM Product
-WHERE Price > 20000;
-
-SELECT Name, Price
-FROM Product
-WHERE Price BETWEEN 5000 AND 20000;
